@@ -33,10 +33,12 @@ javac src/main/java/digest/* -d target/classes
 
 ## Run
 
+Again, 2 ways to run the benchmark test: Maven or plain `java`.
+
 ### Maven
 
 ```
-mvn install
+mvn exec:java
 ```
 
 ### Java
@@ -45,3 +47,4 @@ mvn install
 cd digest
 java -cp target/classes digest/DigestBenchmark 
 ```
+
